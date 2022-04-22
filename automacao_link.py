@@ -30,10 +30,6 @@ driver.find_element_by_class_name("search-results__cluster-bottom-banner").click
 
 sleep(2)#adiciona uma pausa de 2 segundos...
 
-
-
-
-    
 cont = 1 #variavel contadora
 while True:
     cont +=1 #A cada laço a variavel cont é encrementada em 1
@@ -43,6 +39,7 @@ while True:
     #dentro da variavel todos_botoes, onde o botao seja igual ao nome do button que queremos
     #clicar, no caso 'Conectar'
     conectar = [btn for btn in todos_botoes if btn.text == 'Conectar']
+    seguir = [seg for seg in todos_botoes if seg.text == 'Seguir']
     
     #usamos o laço for para percorrer os botoes
     for btn in conectar:
@@ -58,17 +55,29 @@ while True:
         #utilizamos o comando de click do javaScript para fugir do bloqueio que tem para 
         # o click() do webDriver script python
         driver.execute_script("arguments[0].click();",btn2)
-    
+        
+    for seg in seguir:
+        #utilizamos o comando de click do javaScript para fugir do bloqueio que tem para 
+        # o click() do webDriver script python
+        driver.execute_script("arguments[0].click();",seg) 
+        
+        sleep(2)#adiciona uma pausa de 2 segundos...
+                   
     try:
         driver.execute_script('window.scrollBy(0, 1500)')
     
         sleep(3)
         
         print("Vamos para a pagina...",cont)
+        print("......................")
+        print("......................")
         a = driver.find_element_by_xpath("//button[@aria-label='Avançar']")
         driver.execute_script("arguments[0].click();",a)
         print("Já estamos na pagina...",cont)
+        print("......................")
+        print("......................")
+        
     except:
         None
     
-    sleep(8)
+    sleep(3)
