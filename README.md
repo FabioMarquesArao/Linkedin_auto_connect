@@ -26,7 +26,12 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 2 - Abra o repositório em seu editor de código.
 
-3 - Adicione suas Credenciais no arquivo senha_email.py (seu email de login e senha)
+3 - Adicione suas Credenciais no arquivo senha_email.py (seu email de login e senha
+
+4 - Este bot está configurado para se conectar apenas com "Tech Recruiter", se voce quiser se conectar com outros profissionais ou pessoas, </br>
+tem que modificar oque esta escrito entre "" como na foto:![WhatsApp Image 2022-04-22 at 21 01 25](https://user-images.githubusercontent.com/69515104/164836445-542de3b5-a0c0-4a12-a59f-164978f14930.jpeg)
+
+
 
 4 - Agora no terminal basta digitar: python automacao_link.py ou se estiver usando o [VSCode](https://code.visualstudio.com/)
  clicar em Play ou F5, e ver a mágica acontecer...
