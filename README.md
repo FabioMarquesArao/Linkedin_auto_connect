@@ -26,21 +26,27 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 2 - Abra o repositório em seu editor de código.
 
-3 -<ol>
-    <li>
-      No meu caso estou utilizando o Google Chrome, então você terá que baixar o [ChromeDriver], Escolha a versão compatível com seu navegador, e baixe [Aqui](https://chromedriver.chromium.org/downloads).</br></li>
-      <li>Caso não saiba qual é a versão do seu navegador, basta seguir:</br>
+3 - No meu caso estou utilizando o Google Chrome, então você terá que baixar o [ChromeDriver](https://chromedriver.chromium.org/), Escolha a versão compatível com seu navegador, e baixe [Aqui](https://chromedriver.chromium.org/downloads).</br></li>
+      <ol>Caso não saiba qual é a versão do seu navegador, basta seguir:</br>
       <ol>
-          <li>Clique nos três pontos no canto superior direito da barra de navegação</li>
-          <li>Clique na opção Ajuda</li>
-          <li>Clique em Sonbre o Google Chrome</li>
-          <li>Aparecerá na tela a versão do seu navegador</li> 
-      </ol>
-   </ol>
+        <ol>
+            1 - Clique nos três pontos no canto superior direito da barra de navegação: </br></br>![um](https://user-images.githubusercontent.com/69515104/165126286-1d6ebbc3-6040-4483-a097-41e6e3322556.jpeg)</br></br></ol>
+        <ol>
+            2 - Clique na opção Ajuda</br></br>
+![WhatsApp Image 2022-04-25 at 13 07 55](https://user-images.githubusercontent.com/69515104/165129603-cd2d5919-e093-4b0c-9842-035fd2093cc6.jpeg)</li></br></br></ol>
+        <ol>
+            3 - Clique em Sobre o Google Chrome</br></br>
+            ![tres](https://user-images.githubusercontent.com/69515104/165131533-f57a519b-a088-4082-8ec6-8e2ac3ad65a4.png)</br></br>
+        </ol>
+        <ol>
+            4 - Aparecerá na tela a versão do seu navegador</br></br>
+            ![quatro](https://user-images.githubusercontent.com/69515104/165132362-de2ddd85-fd34-4c95-b015-6015e15702af.png)</br></br></ol>
 
-4 - Agora adicione o caminho do seu Webdriver como a seguir:</br>
 
-No meu caso o caminho usado foi :"/home/fabio/Downloads/chromedriver1/chromedriver"
+4 - Agora adicione o caminho do seu Webdriver como a seguir:</br></br>![caminho](https://user-images.githubusercontent.com/69515104/165135184-b43e6a95-e73e-4a51-b7fe-f0671466545c.png)
+</br>
+
+<ol>No meu caso o caminho usado foi :"/home/fabio/Downloads/chromedriver1/chromedriver"</ol></br>
 
 5 - Adicione suas Credenciais no arquivo senha_email.py (seu email de login e senha)
 
