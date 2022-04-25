@@ -6,9 +6,9 @@
 <p align="center">🚀BOT para automatizar suas conexões no Linkedin (Apenas para estudo!!)🚀 </p>
 
 <h1 align="center">:warning::rotating_light:**Atenção**:rotating_light::warning: </h1>
-<p align="center">🚀Este BOT foi construído apenas com o intuito de estudo do Selenium WebDriver e suas funções.</br>
-Não use com sua conta do Linkedin pois a mesma pode ser banida!!🚀</br>
-Recomendo fazer uma conta para estudos para testar o script!!</p>
+<p align="center">🚀Este BOT foi construído apenas com o intuito de estudo do Selenium WebDriver e suas funções.🚀</br>
+🚀Não use com sua conta do Linkedin pois a mesma pode ser banida!!🚀</br>
+🚀Recomendo fazer uma conta para estudos para testar o Bot!!!🚀</br>
 
 
 <h1 align="center">
