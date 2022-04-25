@@ -26,9 +26,25 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 2 - Abra o repositório em seu editor de código.
 
-3 - Adicione suas Credenciais no arquivo senha_email.py (seu email de login e senha
+3 -<ol>
+    <li>
+      No meu caso estou utilizando o Google Chrome, então você terá que baixar o [ChromeDriver], Escolha a versão compatível com seu navegador, e baixe [Aqui](https://chromedriver.chromium.org/downloads).</br></li>
+      <li>Caso não saiba qual é a versão do seu navegador, basta seguir:</br>
+      <ol>
+          <li>Clique nos três pontos no canto superior direito da barra de navegação</li>
+          <li>Clique na opção Ajuda</li>
+          <li>Clique em Sonbre o Google Chrome</li>
+          <li>Aparecerá na tela a versão do seu navegador</li> 
+      </ol>
+   </ol>
 
-4 - Este BOT está configurado para se conectar apenas com "Tech Recruiter", se voce quiser se conectar com outros profissionais ou pessoas, </br>
+4 - Agora adicione o caminho do seu Webdriver como a seguir:</br>
+
+No meu caso o caminho usado foi :"/home/fabio/Downloads/chromedriver1/chromedriver"
+
+5 - Adicione suas Credenciais no arquivo senha_email.py (seu email de login e senha)
+
+6 - Este BOT está configurado para se conectar apenas com "Tech Recruiter", se voce quiser se conectar com outros profissionais ou pessoas, </br>
 tem que modificar oque esta escrito entre "" como na foto:![WhatsApp Image 2022-04-22 at 21 01 25](https://user-images.githubusercontent.com/69515104/164836445-542de3b5-a0c0-4a12-a59f-164978f14930.jpeg)
 
 

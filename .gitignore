@@ -1,0 +1,4 @@
+__pycache__
+.vscode
+geckodriver.log
+chromedriver_linux64.zip

@@ -5,7 +5,7 @@ from senha_email import Senha, Email
 from time import sleep
 
 #variavel driver recebe o chrome com o caminho do execultavel baixado
-driver = webdriver.Chrome(executable_path="/home/fabio/Downloads/chromedriver1/chromedriver")
+driver = webdriver.Chrome(executable_path=" CAMINHO DO SEU WEBDRIVER AQUI ")
 
 #faz uma chamada atravez do get para o site escolhido, nesse caso o goole chrome
 driver.get("https://www.linkedin.com")
