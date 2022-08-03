@@ -1,9 +1,9 @@
-# Seleni 1<h1 align ="center"> Automatizando Conexões do In</h1>
+# Seleni 1<h1 align ="center "> Automatizando Conexões do In</h1>
 
 <h1 align="center">
     <a href="https://www.linkedin.com/in/fabiomarquesarao">🔗Meu Linkedin</a>
 </h1>
-<p align="center">🚀BOT para automatizar suas conexões no Linkedin (Apenas para estudo!!)🚀 </p>
+<p align="center">🚀BOT para automatizar suas conexões no Linkedin (Apenas para estudo!!!)🚀 </p>
 
 <h1 align="center">:warning::rotating_light:**Atenção**:rotating_light::warning: </h1>
 <p align="center">🚀Este BOT foi construído apenas com o intuito de estudo do Selenium WebDriver e suas funções.🚀</br>
