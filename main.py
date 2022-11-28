@@ -43,10 +43,7 @@ class Aplication():
         self.webdriver.maximize_window()  
         self.bot.open_url()
         self.bot.login(password, Email) 
-        self.bot.wait_element_and_click(self.bot.loc)
-        self.bot.wait_element_and_send_keys_enter(self.bot.loc, "developer python")
-        self.webdriver.execute_script('window.scroll(0,500)')
-        self.bot.wait_element_and_click(self.bot.ampli)
+        self.bot.go_to_connect_peoples()
         self.bot.connect_peoples()
     
 

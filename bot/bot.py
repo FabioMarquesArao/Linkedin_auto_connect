@@ -43,6 +43,13 @@ class Linkedin(Page_element):
         self.wait_element_and_send_keys(self.password, password)
         self.wait_element_and_click_argument(self.enter)
     
+
+    def go_to_connect_peoples(self):
+        self.wait_element_and_click(self.loc)
+        self.wait_element_and_send_keys_enter(self.loc, "developer python")
+        self.webdriver.execute_script('window.scroll(0,500)')
+        self.wait_element_and_click(self.ampli)
+    
     def connect_peoples(self):
         #all_dt = self.bot.finds(self.bot.all_loc)
         time.sleep(2)
