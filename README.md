@@ -37,4 +37,8 @@ tem que modificar oque esta escrito entre "" na linha 47, da main.py
 4 - Agora no terminal basta digitar: python automacao_link.py ou se estiver usando o [VSCode](https://code.visualstudio.com/)
  clicar em Play ou F5, e ver a mágica acontecer...
 
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de fabinhoarao@gmail.com
+
 
